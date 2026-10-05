@@ -1,22 +1,5 @@
-# Secrets
 .env
-.env.*
-!.env.example
-
-# Node.js
 node_modules/
-npm-debug.log*
-
-# Python
-.venv/
-venv/
+package-lock.json
 __pycache__/
-*.pyc
-
-# Go
-/go/bin/
-
-# OS / editors
-.DS_Store
-.idea/
-.vscode/
+.venv/

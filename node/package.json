@@ -1,20 +1,6 @@
 {
-  "name": "mista-verify-examples-node",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Mista Verify examples for Node.js",
   "type": "module",
-  "engines": {
-    "node": ">=18"
-  },
-  "scripts": {
-    "quickstart": "node quickstart.mjs",
-    "channels": "node channels.mjs",
-    "server": "node server.mjs",
-    "check": "node --check quickstart.mjs && node --check channels.mjs && node --check server.mjs"
-  },
   "dependencies": {
-    "express": "^4.21.2",
     "mista-sdk": "^0.2.1"
   }
 }
